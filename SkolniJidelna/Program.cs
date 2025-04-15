@@ -34,8 +34,8 @@ class Program
                 {
                     Console.Clear();
                     Console.WriteLine("Akce zrušena.");
+                    volba = 0;
                 }
-                
             }
 
             if (volba >= 1 && volba <= 5)
